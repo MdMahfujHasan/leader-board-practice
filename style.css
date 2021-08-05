@@ -1,0 +1,88 @@
+/* ---------
+top section
+------------ */
+body{
+    background-color: lightblue;
+}
+section{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: -30px;
+    padding-right: -30px;
+}
+.author-details img{
+    height: 60px;
+}
+.author-details{
+    display: flex;
+    align-items: center;
+}
+.author-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    place-items: center;
+}
+.name-adjust{
+    margin-left: 20px;
+}
+.heading-highlight{
+    color: forestgreen;
+    margin-left: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+.blog{
+    display: flex;
+    margin-left: 5%;
+}
+.blog img{
+    width: 250px;
+
+}
+.blog-details{
+    margin-left: 3%;
+}
+.anchor-style{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px;
+}
+.course img{
+    width: 300px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-left: 2%;
+}
+.fas.fa-star{
+    color: gold;
+}
+.fas.fa-star-half-alt{
+    color: gray;
+}
+.clock-highlight{
+    background-color: hotpink;
+    width: 20%;
+    padding: 8px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:688px) {
+    
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    
+}
+
+@media only screen and (min-width:993px) and (max-width:1312px) {
+    
+}
